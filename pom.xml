@@ -6,10 +6,22 @@
   <artifactId>maven-sample</artifactId>
   <version>0.2-SNAPSHOT</version>
   <packaging>war</packaging>
+  
 
   <name>Simple Maven example</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>eoxys-OptiPlex-3046-releases</name>
+        <url>http://localhost:8081/artifactory/sample-maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>eoxys-OptiPlex-3046-snapshots</name>
+        <url>http://localhost:8081/artifactory/sample-maven</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
