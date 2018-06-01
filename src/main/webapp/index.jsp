@@ -14,7 +14,7 @@
 	<body>
 		<c:url value="/showMessage.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to enter</a><br>
-		<c:url value="/showMessage.html" var="messageUrl" />
+		<br><c:url value="/showMessage.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to close</a>
 	</body>
 </html>
