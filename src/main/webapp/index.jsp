@@ -13,7 +13,7 @@
 	<h1><center>WELCOME TO JENKINS DEPLOY</center></h1>
 	<body>
 		<c:url value="/showMessage.html" var="messageUrl" />
-		<center><a href="${messageUrl}">Click to enter</a><br><center>
+		<a href="${messageUrl}">Click to enter</a><br>
 		<br><c:url value="/showMessage.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to close</a>
 	</body>
