@@ -11,10 +11,10 @@
 		<title>Welcome</title>
 	</head> 
 	<h1><center>WELCOME TO JENKINS DEPLOY</center></h1>
-	<body>
+	<body><center>
 		<c:url value="/showMessage.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to enter</a><br>
 		<br><c:url value="/showMessage.html" var="messageUrl" />
-		<a href="${messageUrl}">Click to close</a>
+		<a href="${messageUrl}">Click to close</a></center>
 	</body>
 </html>
