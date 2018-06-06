@@ -8,7 +8,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Welcome</title>
+		<title><center>Welcome</center></title>
 	</head> 
 	<h1>WELCOME TO JENKINS DEPLOY</h1>
 	<body>
