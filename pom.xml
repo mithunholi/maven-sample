@@ -4,7 +4,7 @@
 
   <groupId>com.eoxys.maven</groupId>
   <artifactId>maven-sample</artifactId>
-  <version>maven-sample-v${BUILD_NUMBER}</version>
+  <version>0.2 SNAPSHOT</version>
   <packaging>war</packaging>
   
 
