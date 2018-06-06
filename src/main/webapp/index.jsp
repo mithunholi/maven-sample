@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<title>Welcome</title>
 	</head> 
-	<h1><center>WELCOME TO JENKINS DEPLOY</center></h1>
+	<center><h1>WELCOME TO JENKINS DEPLOY</h1></center>
 	<body>
 		<c:url value="/showMessage.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to enter</a><br>
