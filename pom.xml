@@ -14,18 +14,7 @@
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	
-		<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>jfrog-releases</name>
-        <url>http://localhost:8081/artifactory/sample-maven</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog-snapshots</name>
-        <url>http://localhost:8081/artifactory/sample-maven</url>
-    </snapshotRepository>
-</distributionManagement>
+		
 		<!-- Spring -->
 	<dependencies>
 		<dependency>
@@ -181,4 +170,5 @@
         <url>http://localhost:8081/artifactory/sample-maven</url>
     </snapshotRepository>
 </distributionManagement>
+	
 </project>
