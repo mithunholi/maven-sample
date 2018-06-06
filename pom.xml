@@ -13,7 +13,7 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
-	<dependencies>
+	
 		<distributionManagement>
     <repository>
         <id>central</id>
@@ -27,6 +27,7 @@
     </snapshotRepository>
 </distributionManagement>
 		<!-- Spring -->
+	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
