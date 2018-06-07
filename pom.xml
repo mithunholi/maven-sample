@@ -6,7 +6,9 @@
   <artifactId>maven-sample</artifactId>
   <version>0.2 SNAPSHOT</version>
   <packaging>war</packaging>
-  
+  <configuration>
+  <warName>${project.artifactId}</warName>
+</configuration>
 
   <name>Simple Maven example</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
