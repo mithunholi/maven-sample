@@ -23,6 +23,16 @@
         <name>eoxys-OptiPlex-3046-snapshots</name>
         <url>http://localhost:8081/artifactory/sample-maven</url>
     </snapshotRepository>
+      <repository>
+        <id>1234</id>
+        <name>Releases</name>
+        <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>1234</id>
+        <name>Snapshots</name>
+        <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
 </distributionManagement>
   <dependencies>
     <dependency>
